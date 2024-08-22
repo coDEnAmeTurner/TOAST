@@ -1,0 +1,126 @@
+.brand_story_box {
+  position: relative;
+  width: 100vw;
+  height: 50vw;
+  background-color: #0565bb;
+}
+
+.Brand-Story {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  padding-top: 8.5vw;
+  font-family: Montserrat;
+  font-size: 3vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 4.5px;
+  text-align: left;
+  color: #fcd32a;
+}
+
+.brand_story_sidenote {
+  display: flex;
+  width: 50vw;
+  justify-content: center;
+  margin: 1.5vw 25vw 0 25vw;
+  font-family: NotoSansCJKkr;
+  font-size: 0.9vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fcd32a;
+}
+
+img.window {
+  width: 60vw;
+  height: 20vw;
+  object-fit: contain;
+}
+
+.window_div {
+  margin: 5vw 0 0 0;
+  position: relative;
+  z-index: 1;
+}
+
+.window_div_img_center {
+  display: flex;
+  justify-content: center;
+}
+
+.What-Happeneds-Brand-story {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1.5vw 30vw 0 0;
+  font-family: Montserrat;
+  font-size: 1.5vw;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  color: #222;
+}
+.window_content {
+  display: inline-block;
+  position: absolute;
+  width: 26vw;
+  bottom: 0;
+  right: 0;
+  margin: 0 23.6vw 5vw 0;
+  font-family: NotoSansCJKkr;
+  font-size: 0.9vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222;
+}
+
+img.object {
+    display: inline-block;
+    position: absolute;
+    object-fit: contain;
+
+}
+
+img.Object_01 {
+  top: 0;
+  left: 0;
+  margin: 18vw 0 0 18vw;
+  width: 7vw;
+  height: 7vw;
+  z-index: 0;
+}
+img.Object_02 {
+  top: 0;
+  right: 0;
+  margin: 4vw 13.6vw 0 0;
+  width: 7vw;
+  height: 7vw;
+}
+img.Object_03 {
+  top: 0;
+  right: 0;
+  margin: 5.5vw 11.6vw 0 0;
+  width: 7vw;
+  height: 9vw;
+}
+img.Object_06 {
+  bottom: 0;
+  margin: 0 11.6vw 0 0;
+  width: 10vw;
+  height: 18vw;
+}
+
+

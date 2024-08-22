@@ -1,0 +1,134 @@
+.box {
+  width: 96%;
+  height: auto;
+  padding: 24px 2% 27px 2%;
+  background-color: #111;
+  display: grid;
+  grid-template-columns: 2fr 3fr repeat(6, 1fr);
+}
+
+.box span {
+  font-size: medium;
+}
+
+.Introduction {
+  width: 111px;
+  height: 11px;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  grid-column-start: 3;
+}
+.solution {
+  width: 73px;
+  height: 11px;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.Rate-plan {
+  width: 68px;
+  height: 11px;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.Rectangle-662 {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 1px;
+  height: 23px;
+  background-color: #ccc8c6;
+}
+.login {
+  width: 44px;
+  height: 11px;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.Apply-for-free-use {
+  width: 155px;
+  height: 11px;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+@media only screen and (max-width: 743px) {
+  .box {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .logo {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+  .Introduction {
+    grid-column-start: 1;
+  }
+
+}
+
+@media only screen and (max-width: 687px) {
+  .box {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .logo {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  .login {
+    grid-column-start: 2;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  .box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .logo {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  .login {
+    grid-column-start: 2;
+  }
+}
+
+@media only screen and (max-width: 396px) {
+  .box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .logo {
+    grid-column-start: 1;
+  }
+  .login {
+    grid-column-start: 2;
+  }
+}

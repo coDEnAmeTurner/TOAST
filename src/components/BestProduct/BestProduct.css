@@ -1,0 +1,106 @@
+.Bes_bg_container {
+  position: relative;
+}
+
+img.Bes_bg {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  bottom: 8px;
+}
+
+.Best-Product {
+  display: block;
+  position: absolute;
+  top: 0;
+  margin: 10vw 2% 0 2%;
+  width: 96%;
+  height: 37px;
+  font-family: Montserrat;
+  font-size: 2.4vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #f96400;
+}
+
+.Bes_bg_container
+  .How-to-create-mobile-optimized-videos-in-minutes-Not-a-designe {
+  display: block;
+  position: absolute;
+  top: 15vw;
+  width: 40%;
+  height: 52px;
+  margin: 0 30% 0 30%;
+  font-family: Montserrat;
+  font-size: 1.4vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f96400;
+}
+.best_image_container {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 14vw;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.best_image_container_item {
+  position: relative;
+}
+
+.best_image_container img {
+  width: 20vw;
+  object-fit: contain;
+}
+
+img.Producticon {
+  display: block;
+  position: absolute;
+  top: -2vw;
+  left: -0.25vw;
+  width: 4vw;
+  height: 4vw;
+  object-fit: contain;
+}
+.best_image_button_box {
+  display: flex;
+  width: 15.5vw;
+  border: solid 3px #020001;
+  background-color: #fff;
+  position: absolute;
+  bottom: -2vw;
+  left: 14%;
+  justify-content: space-between;
+  align-items: center;
+}
+.How-to-create-mobile-optimized {
+  margin: 0.5vw 0 0.5vw 0.5vw;
+  width: 9vw;
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222;
+}
+img.go_icon {
+  width: 2.48vw;
+  height: 2.48vw;
+  object-fit: contain;
+}
+

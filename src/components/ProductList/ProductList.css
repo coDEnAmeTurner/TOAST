@@ -1,0 +1,35 @@
+div.product_list_div {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(5, 17vw);
+  grid-auto-rows: 17vw;
+  gap: 1vw;
+  justify-items: center;
+  align-items: center;
+  margin: 3vw 3vw 0 4.6vw;
+}
+
+.Rectangle-702 {
+  display: flex;
+  width: 7.4vw;
+  height: 2.1vw;
+  margin: 98px 21px 143px 58px;
+  padding: 21px 36px 21px 37px;
+  border: solid 3px #020001;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 1752px) {
+  div.product_list_div {
+    grid-template-columns: repeat(4, 17vw);
+    margin: 3vw 3vw 0 13.6vw;
+  }
+}
+
