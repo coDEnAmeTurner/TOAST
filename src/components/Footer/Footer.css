@@ -1,0 +1,132 @@
+.Rectangle-12-copy-3 {
+    width: 90vw;
+    height: 1px;
+    margin: 30vw 5vw 0 5vw;
+    background-color: #b6a4a4;
+}
+
+.Rectangle-12-copy-3a {
+    width: 90vw;
+    height: 1px;
+    margin: 7vw 5vw 0 5vw;
+    background-color: #d8d2d2;
+}
+
+.footer-info {
+    width: 90vw;
+    margin: 0 5vw 0 5vw;
+    display: flex;
+}
+
+.footer-what-happened,
+.footer-info-details {
+    width: 50%;
+}
+
+.footer-info-details {
+    display: flex;
+}
+
+
+div.footer-what-happened div.what-happened {
+    display: block;
+    width: 10vw;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #111;
+}
+
+.footer .desc {
+    width: 18.5vw;
+    font-family: NotoSansCJKkr;
+    margin: 2vw 0 0 0;
+    font-size: 1vw;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #111;
+}
+
+div.footer-info-details div.container {
+    width: 25%;
+    margin: 6vw 0 0 0;
+}
+
+.footer-title {
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #111;
+}
+
+.footer .about-us-desc {
+    width: 5vw;
+}
+
+.footer .my-order-desc {
+    width: 6vw;
+}
+
+.footer .my-account-desc {
+    width: 5.5vw;
+}
+
+.footer .help-desc {
+    width: 5.3vw;
+}
+
+.footer-author {
+    display: flex;
+    margin: 3vw 3.5vw 0 5vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a2020-2021-what-happened-corp-l- {
+    width: 50vw;
+    font-family: NotoSansCJKkr;
+    font-size: 0.83vw;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a9a9a9;
+}
+
+.-\32 020-2021-what-happened-corp-l- .text-style-1 {
+    font-family: AppleGothic;
+    font-weight: normal;
+}
+
+.-\32 020-2021-what-happened-corp-l- .text-style-2 {
+    font-weight: 500;
+}
+
+
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+}
+
+div.footer-icons img {
+    width: 1vw;
+    height: 1vw;
+}

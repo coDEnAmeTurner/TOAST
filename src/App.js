@@ -1,20 +1,21 @@
 import "./App.css";
-import Navbar from "./components/Nav/Navbar" ;
-import MainBanner from "./components/MainBanner/MainBanner";
-import Introduction from "./components/Introduction/Introduction";
-import BestProduct from "./components/BestProduct/BestProduct";
-import ProductList from "./components/ProductList/ProductList";
-import BrandStory from "./components/BrandStory/BrandStory";
+import Navbar from "./components/Nav/Navbar";
+import Footer from "./components/Footer/Footer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./components/Pages/Home";
+import { Signin } from "./components/Pages/Signin";
+import { Register } from "./components/Pages/Register";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <MainBanner/>   
-      <Introduction/>
-      <BestProduct/>
-      <ProductList/>
-      <BrandStory/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Signin />} />
+          <Route path="/register" element={<Register />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

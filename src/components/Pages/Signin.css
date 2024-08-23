@@ -1,0 +1,133 @@
+.Welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 5vw;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #0565bb;
+}
+
+.line {
+    width: 40vw;
+    height: 3px;
+    margin: 3vw 30vw 3vw 30vw;
+    background-color: #222;
+}
+
+.email {
+    width: 10vw;
+    margin: 3vw 0 3vw 0;
+    font-family: NotoSansCJKkr;
+    font-size: 1vw;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222;
+}
+
+.textbox {
+    width: 50vw;
+    height: 5vw;
+    margin: 0 25vw 5vw 25vw;
+    pad: 1vw 2vw 1vw 2vw;
+    border: solid 1px #a1a1a1;
+    background-color: #fff;
+    font-family: NotoSansCJKkr;
+    font-size: 0.7vw;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.75;
+    letter-spacing: normal;
+    text-align: left;
+
+}
+
+.label {
+    margin: 5vw 25vw 0 25vw;
+    font-family: NotoSansCJKkr;
+    font-size: 1.2vw;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #659bf5;
+}
+
+
+.Rectangle-1190-copy {
+    width: 7px;
+    height: 7px;
+    background-color: #333;
+}
+
+.px_check_box,
+img.px_non_cneck_box {
+    width: 1vw;
+    height: 1vw;
+    margin-top: 1.5vw;
+}
+
+.confirm1,
+.confirm2 {
+    margin-right: 29.5vw;
+    display: flex;
+    font-family: NotoSansCJKkr;
+    font-size: 1vw;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4.29;
+    letter-spacing: normal;
+    text-align: right;
+    color: #659bf5;
+    justify-content: right;
+}
+
+.confirm1 .text-style-1 {
+    width: 11vw;
+    color: #000;
+}
+
+.signin-textbox-copy-2 {
+    width: 50vw;
+    height: 4vw;
+    margin: 0 25vw 0 25vw;
+    background-color: #0565bb;
+    color: white;
+    padding-top: 3vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.SNS- {
+    width: 20vw;
+    height: 5vw;
+    margin: 3vw 40vw 3vw 40vw;
+    font-family: NotoSansCJKkr;
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.75;
+    letter-spacing: 1.6px;
+    text-align: center;
+    color: #404142;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    margin: 3vw 25vw 3vw 25vw;
+}

@@ -28,10 +28,28 @@ const BrandStory = () => {
           희망의 못할 것은 목숨을 수 그들을 아름답고 고행을 끝에 설산에서
           황금시대를 이상을 운다.
         </span>
+
+        <div class="Rectangle-702">SEE MORE</div>
+
+        <img
+          src={require("../../img/object-04.png")}
+          class="object Object_04"
+          alt="object-04"
+        />
+        <img
+          src={require("../../img/object-05.png")}
+          class="object Object_05"
+          alt="object-05"
+        />
         <img
           src={require("../../img/object-06.png")}
           class="object Object_06"
           alt="object-06"
+        />
+        <img
+          src={require("../../img/object-07.png")}
+          class="object Object_07"
+          alt="object-07"
         />
       </div>
       <img
